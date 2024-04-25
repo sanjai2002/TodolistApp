@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+  }
+  .AddTask h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  .AddTask form {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .AddTask form div {
+    margin-bottom: 12px;
+  }
+  
+ 
+  
+  .AddTask input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  .AddTask button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AddTask button:hover {
+    background-color: #4cae4c;
+  }
+  
+/* view Taks */
+  .ViewTask{
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+.Editdeletebtn {
+    padding-left: 550px;
+  }
+  .Editdeletebtn td {
+    padding-left:20px;
+    padding-bottom: 20px;
+  }
+
+  .Overduealert td{
+    color: red;
+  }
+  
